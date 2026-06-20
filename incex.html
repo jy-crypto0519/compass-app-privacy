@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>指南针 - 隐私政策</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: linear-gradient(135deg, #1e3a5f 0%, #0f1f35 100%);
+            color: #e0e8f0;
+            line-height: 1.8;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid rgba(100, 150, 200, 0.2);
+        }
+        .icon {
+            font-size: 56px;
+            margin-bottom: 16px;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            font-size: 14px;
+            color: #8fa8c8;
+        }
+        h2 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #8ab4f8;
+            margin-top: 36px;
+            margin-bottom: 12px;
+            padding-left: 14px;
+            border-left: 3px solid #8ab4f8;
+        }
+        p {
+            font-size: 15px;
+            color: #c8d4e3;
+            margin-bottom: 12px;
+        }
+        ul {
+            margin: 12px 0 12px 20px;
+        }
+        li {
+            font-size: 15px;
+            color: #c8d4e3;
+            margin-bottom: 8px;
+        }
+        .highlight {
+            background: rgba(100, 150, 200, 0.1);
+            padding: 16px 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+            border-left: 3px solid #8ab4f8;
+        }
+        .highlight p { margin-bottom: 0; font-size: 14px; }
+        .footer {
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(100, 150, 200, 0.2);
+            text-align: center;
+            font-size: 13px;
+            color: #6b8ab0;
+        }
+        .lang-switch {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .lang-btn {
+            display: inline-block;
+            padding: 6px 16px;
+            margin: 0 4px;
+            border: 1px solid rgba(138, 180, 248, 0.4);
+            border-radius: 20px;
+            color: #8ab4f8;
+            cursor: pointer;
+            font-size: 13px;
+            background: transparent;
+            transition: all 0.2s;
+        }
+        .lang-btn:hover { background: rgba(138, 180, 248, 0.15); }
+        .lang-btn.active {
+            background: #8ab4f8;
+            color: #0f1f35;
+            border-color: #8ab4f8;
+        }
+        .en { display: none; }
+        .en.active { display: block; }
+        body.en-mode .zh { display: none; }
+        body.en-mode .en { display: block; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switch">
+            <span class="lang-btn active" onclick="switchLang('zh')">中文</span>
+            <span class="lang-btn" onclick="switchLang('en')">English</span>
+        </div>
+
+        <div class="header">
+            <div class="icon">🧭</div>
+            <h1 class="zh">隐私政策</h1>
+            <h1 class="en">Privacy Policy</h1>
+            <p class="subtitle zh">最后更新：2026年6月</p>
+            <p class="subtitle en">Last Updated: June 2026</p>
+        </div>
+
+        <h2 class="zh">概述</h2>
+        <h2 class="en">Overview</h2>
+        <p class="zh">指南针（以下简称"本应用"）是一款极简精准的罗盘工具。我们高度重视您的个人隐私，本隐私政策说明了我们如何处理您的信息。</p>
+        <p class="en">Compass (hereinafter referred to as "the App") is a simple and accurate compass tool. We highly value your privacy. This policy explains how we handle your information.</p>
+
+        <h2 class="zh">我们收集的信息</h2>
+        <h2 class="en">Information We Collect</h2>
+        <div class="highlight">
+            <p class="zh"><strong>✅ 核心原则：本应用不上传任何个人数据到服务器。</strong></p>
+            <p class="en"><strong>✅ Core Principle: The App does not upload any personal data to servers.</strong></p>
+        </div>
+
+        <ul>
+            <li>
+                <span class="zh"><strong>位置信息（GPS）</strong>：当您授权位置访问后，本应用会获取您的经纬度和海拔，仅用于：</span>
+                <span class="en"><strong>Location Information (GPS)</strong>: When you grant location access, the App receives your latitude, longitude, and altitude, used solely for:</span>
+                <ul>
+                    <li class="zh">显示当前坐标和海拔</li>
+                    <li class="en">Displaying current coordinates and altitude</li>
+                    <li class="zh">提供真北（True Heading）方向计算</li>
+                    <li class="en">Providing True Heading direction calculation</li>
+                    <li class="zh">让您保存的点位标记能够指引方向</li>
+                    <li class="en">Enabling saved location marks for direction guidance</li>
+                </ul>
+            </li>
+            <li>
+                <span class="zh"><strong>磁力计 / 陀螺仪数据</strong>：仅用于检测方向和手机倾斜状态，实现罗盘和水平仪功能。</span>
+                <span class="en"><strong>Magnetometer / Gyroscope Data</strong>: Used solely for detecting direction and device tilt, enabling compass and level features.</span>
+            </li>
+            <li>
+                <span class="zh"><strong>点位标记数据</strong>：您保存的点位存储在<strong>设备本地</strong>（应用沙盒的 JSON 文件中），不会上传。</span>
+                <span class="en"><strong>Location Mark Data</strong>: Your saved location marks are stored <strong>locally on the device</strong> (in the app sandbox as a JSON file) and never uploaded.</span>
+            </li>
+        </ul>
+
+        <h2 class="zh">数据存储</h2>
+        <h2 class="en">Data Storage</h2>
+        <ul>
+            <li class="zh">所有数据仅存储在您的设备本地（应用沙盒内）</li>
+            <li class="en">All data is stored locally on your device (within the app sandbox)</li>
+            <li class="zh">卸载应用即可完全清除所有数据</li>
+            <li class="en">Uninstalling the app completely removes all data</li>
+            <li class="zh">不使用任何云端存储</li>
+            <li class="en">No cloud storage is used</li>
+        </ul>
+
+        <h2 class="zh">第三方服务</h2>
+        <h2 class="en">Third-Party Services</h2>
+        <p class="zh">本应用不使用任何第三方分析、广告、追踪或崩溃报告服务。</p>
+        <p class="en">The App does not use any third-party analytics, advertising, tracking, or crash reporting services.</p>
+
+        <h2 class="zh">您的权利</h2>
+        <h2 class="en">Your Rights</h2>
+        <ul>
+            <li class="zh">您可以随时在 iOS「设置 → 隐私与安全性 → 定位服务」中关闭位置权限</li>
+            <li class="en">You can disable location permissions at any time in iOS Settings → Privacy & Security → Location Services</li>
+            <li class="zh">您可以随时删除本应用以清除所有本地数据</li>
+            <li class="en">You can delete the App at any time to erase all local data</li>
+        </ul>
+
+        <h2 class="zh">儿童隐私</h2>
+        <h2 class="en">Children's Privacy</h2>
+        <p class="zh">本应用不收集任何个人身份信息，适合所有年龄段用户使用。</p>
+        <p class="en">The App does not collect any personally identifiable information and is suitable for users of all ages.</p>
+
+        <h2 class="zh">政策更新</h2>
+        <h2 class="en">Policy Updates</h2>
+        <p class="zh">我们可能会不时更新本隐私政策。如有重大变更，我们会在应用中通知您。</p>
+        <p class="en">We may update this Privacy Policy from time to time. If there are significant changes, we will notify you within the App.</p>
+
+        <h2 class="zh">联系我们</h2>
+        <h2 class="en">Contact Us</h2>
+        <p class="zh">如您对本隐私政策有任何疑问，请通过以下方式联系我们：</p>
+        <p class="en">If you have any questions about this Privacy Policy, please contact us:</p>
+        <div class="highlight">
+            <p class="zh">📧 邮箱：jinyan.guo@icloud.com</p>
+            <p class="en">📧 Email: jinyan.guo@icloud.com</p>
+        </div>
+
+        <div class="footer">
+            <p class="zh">© 2026 指南针 · 所有权利保留</p>
+            <p class="en">© 2026 Compass · All Rights Reserved</p>
+        </div>
+    </div>
+
+    <script>
+        function switchLang(lang) {
+            const body = document.body;
+            const btns = document.querySelectorAll('.lang-btn');
+            btns.forEach(b => b.classList.remove('active'));
+            if (lang === 'en') {
+                body.classList.add('en-mode');
+                btns[1].classList.add('active');
+            } else {
+                body.classList.remove('en-mode');
+                btns[0].classList.add('active');
+            }
+        }
+    </script>
+</body>
+</html>
